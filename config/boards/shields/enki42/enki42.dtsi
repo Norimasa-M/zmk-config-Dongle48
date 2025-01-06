@@ -31,6 +31,7 @@
 		label = "KSCAN";
 
 		diode-direction = "col2row";
+        wakeup-source;
 		row-gpios
 			= <&pro_micro 20 (GPIO_ACTIVE_HIGH | GPIO_PULL_DOWN)>
 			, <&pro_micro 19 (GPIO_ACTIVE_HIGH | GPIO_PULL_DOWN)>
@@ -42,13 +43,6 @@
 
 	// TODO: per-key RGB node(s)?
 
-
-
-	default_kscan: kscan {
-        compatible = "zmk,kscan-gpio-matrix";
-        diode-direction = "col2row";
-        wakeup-source;
-    };
     
     keys {
         compatible = "gpio-keys";
