@@ -4,7 +4,7 @@
 if SHIELD_NMORTHO48_DONGLE
 
 config ZMK_KEYBOARD_NAME
-	default "nmrotho48 Dongle"
+	default "enki42 Dongle"
 	
 config ZMK_SPLIT_BLE_ROLE_CENTRAL
 	default y
@@ -14,7 +14,7 @@ config ZMK_USB
 
 endif
 
-if SHIELD_nmrotho48_LEFT || SHIELD_nmrotho48_RIGHT || SHIELD_nmrotho48_DONGLE 
+if SHIELD_enki42_LEFT || SHIELD_enki42_RIGHT || SHIELD_enki42_DONGLE 
 
 config ZMK_SPLIT
 	default y
