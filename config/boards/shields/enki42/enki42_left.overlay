@@ -4,7 +4,7 @@
  * SPDX-License-Identifier: MIT
  */
 
-#include "nmortho48.dtsi"
+#include "nmrotho48.dtsi"
 
 &kscan0 {
 	col-gpios

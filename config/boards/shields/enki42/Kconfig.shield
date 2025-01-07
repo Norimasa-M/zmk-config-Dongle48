@@ -1,0 +1,11 @@
+# Copyright (c) 2020 The ZMK Contributors
+# SPDX-License-Identifier: MIT
+
+config SHIELD_nmrotho48_LEFT
+	def_bool $(shields_list_contains,nmrotho48_left)
+
+config SHIELD_nmrotho48_RIGHT
+	def_bool $(shields_list_contains,nmrotho48_right)
+
+config SHIELD_nmrotho48_DONGLE
+	def_bool $(shields_list_contains,nmrotho48_dongle)

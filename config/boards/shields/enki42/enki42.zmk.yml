@@ -1,0 +1,13 @@
+file_format: "1"
+id: nmrotho48
+name: The nmrotho48 
+type: shield
+url: https://github.com/benvallack/zmk-config-nmrotho48
+requires: [pro_micro]
+exposes: [i2c_oled]
+features:
+  - keys
+siblings:
+  - nmrotho48_left
+  - nmrotho48_right
+  - nmrotho48_dongle
